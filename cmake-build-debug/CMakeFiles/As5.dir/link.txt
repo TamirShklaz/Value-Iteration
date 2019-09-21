@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/As5.dir/main.cpp.o CMakeFiles/As5.dir/State.cpp.o CMakeFiles/As5.dir/Action.cpp.o  -o As5 

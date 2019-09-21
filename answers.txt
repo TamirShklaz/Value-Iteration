@@ -1,0 +1,43 @@
+1.
+Iteration: 1
+0 0 0
+0 0 0
+
+
+Iteration: 2
+0 50 0
+0 40 100
+
+
+Iteration: 3
+40 50 0
+32 80 100
+
+
+Iteration: 4
+40 64 0
+64 80 100
+
+
+Iteration: 5
+51.2 64 0
+64 80 100
+
+
+Converged after 5 iterations
+
+2.
+Right Down Terminal
+Right Right Up
+
+
+3.
+Yes, you can make changes to the rewards which will effect the utility of each state.
+The optimal policy is calculated by the sequence of states with the highest utility.
+As long as the changes to the rewards are minor such that the states utility changes
+but the optimal sequence of states does not change the optimal policy will not change.
+
+For example if the reward for the action (0,1) -> (0,0) was equal to 10, the utility of state (0,1)
+would change but the optimal policy would remain the same.
+However of the reward for action (1,1) -> (2,1) was equal to 150. The utility and the optimal policy
+would change due to this change being significant enough relative to the other rewards
